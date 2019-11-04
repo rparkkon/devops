@@ -23,3 +23,10 @@ DevOps course / R.Parkkonen
 [1.10, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.10)
 <BR>
 [1.11, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.11)
+<BR>
+[1.13](https://github.com/rparkkon/devops/blob/master/part1/e1.13)
+<BR>
+[1.14](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
+<BR>
+[1.15](https://github.com/rparkkon/devops/blob/master/part1/e1.15)
+<BR>
