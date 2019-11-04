@@ -1,0 +1,14 @@
+
+~ $ docker pull devopsdockeruh/ports_exercise
+~ $ docker images
+REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
+devopsdockeruh/ports_exercise           latest              a9eb96cbe9d0        8 months ago        73.1MB
+
+
+~ $ docker run -d -p 80 a9eb96cbe9d0
+
+~ $ docker container ls -a --last 10
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                          PORTS                   NAMES
+b0a5ee9827e3        a9eb96cbe9d0        "npm start"              5 seconds ago        Up 4 seconds                    0.0.0.0:32771->80/tcp   brave_chebyshev
+
+=> in browser: http://localhost:32771/  -> Ports configured correctly!!

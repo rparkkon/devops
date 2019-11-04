@@ -1,0 +1,8 @@
+Image: devopsdockeruh/pull_exercise 
+
+Secret message: 
+basics
+
+Message:
+You found the correct password. Secret message is:
+"This is the secret message"
