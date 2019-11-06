@@ -13,7 +13,6 @@
 <BR>
 <BR>=> in browser: http://172.17.0.2:5000/
 <BR>=>
-<BR>
 <BR>Part 1
 <BR>Exercise 1.10: Congratulations! You configured your ports correctly!
 <BR>Exercise 1.12: Not yet working

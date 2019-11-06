@@ -1,4 +1,3 @@
-<BR>
 <BR>docker build -t curler .
 <BR>docker run -it curler
 <BR>
