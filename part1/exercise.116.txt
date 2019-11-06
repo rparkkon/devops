@@ -1,9 +1,0 @@
-Commands:
-$ docker pull devopsdockeruh/heroku-example
-$ heroku login
-$ docker ps
-$ heroku container:login
-$ docker tag devopsdockeruh/heroku-example registry.heroku.com/lantti-matti/web
-$ docker push registry.heroku.com/lantti-matti/web
-
-URL: https://lantti-matti.herokuapp.com/

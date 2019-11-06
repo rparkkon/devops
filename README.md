@@ -44,7 +44,57 @@ DevOps course / R.Parkkonen
 <BR>docker run -d  --name uupper ubuntu sh -c -it 'apt-get update;apt-get install -y curl; echo "Input website:"; read website; echo "Searching...."; sleep 1; <BR>curl http://$website;'
 <BR>docker attach  uupper
 <BR>
-
+<BR>
+[Excercise 1.6](https://github.com/rparkkon/devops/blob/master/part1/e1.6)
+<BR>
+[Excercise 1.7](https://github.com/rparkkon/devops/blob/master/part1/e1.7)
+<BR>
+<BR>Excercise 1.8 -
+<BR>===============
+<BR>
+<BR>Excercise 1.9
+<BR>===============
+<BR>
+<BR>$ docker pull devopsdockeruh/ports_exercise
+<BR>$ docker images
+<BR>REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
+<BR>devopsdockeruh/ports_exercise           latest              a9eb96cbe9d0        8 months ago        73.1MB
+<BR>
+<BR>
+<BR>$ docker run -d -p 80 a9eb96cbe9d0
+<BR>
+<BR>$ docker container ls -a --last 10
+<BR>CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                          PORTS                   NAMES
+<BR>b0a5ee9827e3        a9eb96cbe9d0        "npm start"              5 seconds ago        Up 4 seconds                    0.0.0.0:32771->80/tcp   brave_chebyshev
+<BR>
+<BR>=> in browser: http://localhost:32771/  -> Ports configured correctly!!
+<BR>
+[Excercise 1.10, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.10)
+<BR>
+[Excercise 1.11, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.11)
+<BR>
+[Excercise 1.13](https://github.com/rparkkon/devops/blob/master/part1/e1.13)
+<BR>
+[Excercise 1.14 - Not finished.](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
+<BR>
+[Excercise 1.15](https://github.com/rparkkon/devops/blob/master/part1/e1.15)
+<BR>
+<BR>Excercise 1.16
+<BR>==============
+<BR>
+<BR>Commands:
+<BR>$ docker pull devopsdockeruh/heroku-example
+<BR>$ heroku login
+<BR>$ docker ps
+<BR>$ heroku container:login
+<BR>$ docker tag devopsdockeruh/heroku-example registry.heroku.com/lantti-matti/web
+<BR>$ docker push registry.heroku.com/lantti-matti/web
+<BR>
+<BR>URL:  https://lantti-matti.herokuapp.com/
+<BR>
+<BR>Excercise 1.17 -
+<BR>================
 <BR>
 <BR>
 [Part 2](https://github.com/rparkkon/devops/tree/master/part2)
+<BR>
