@@ -1,0 +1,10 @@
+version: '2.0' 
+
+services: 
+  
+  youtube-dl-ubuntu:  
+    image: docvuosaari/mollee:1
+    build: . 
+  volumes:
+    - .:/mydir:
+  container_name: youtube-dl

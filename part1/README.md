@@ -26,7 +26,9 @@ DevOps course / R.Parkkonen
 <BR>
 [1.13](https://github.com/rparkkon/devops/blob/master/part1/e1.13)
 <BR>
-[1.14 Not finished.](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
+[1.14 - Not finished.](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
 <BR>
 [1.15](https://github.com/rparkkon/devops/blob/master/part1/e1.15)
+<BR>
+[1.16](https://github.com/rparkkon/devops/blob/master/part1/exercise.116.txt)
 <BR>

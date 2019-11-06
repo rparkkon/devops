@@ -2,9 +2,7 @@
 
 # dependencies
 # testing
-saved/
-frontend-example-docker/
-part1/e1.15/node_modules/
+whoami/
 
 # production
 # misc

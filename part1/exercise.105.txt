@@ -1,3 +1,0 @@
-
-docker run -d  --name uupper ubuntu sh -c -it 'apt-get update;apt-get install -y curl; echo "Input website:"; read website; echo "Searching...."; sleep 1; curl http://$website;'
-docker attach  uupper
