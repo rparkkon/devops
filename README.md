@@ -4,18 +4,25 @@ DevOps course / R.Parkkonen
 <BR>
 <BR>Excercise 1.1
 <BR>=============
-<BR>CONTAINER ID        IMAGE                    COMMAND                  CREATED              STATUS                   PORTS               NAMES
-<BR>73a1db0c720a        ubuntu                   "sh -c 'while true;d…"   About a minute ago   Up About a minute                            cooper
-<BR>294f92a2b703        hello-world              "/hello"                 5 hours ago          Exited (0) 5 hours ago                       adoring_tharp
-<BR>5d73d89c2f3d        ubuntu                   "/bin/bash"              5 hours ago          Exited (0) 5 hours ago                       upbeat_herschel
+<BR> $ docker container ps -a
 <BR>
+CONTAINER ID    |    IMAGE          |          COMMAND       |      CREATED       |    STATUS         | PORTS  |    NAME
+--------------------|-------------------|------------------------|--------------------|-------------------|--------|------------------------
+73a1db0c720a    |    ubuntu          |  "sh -c 'while true;d…" |  About a minute ago |  Up About a minute          |            |      cooper
+294f92a2b703    |    hello-world     |  "/hello"               |  5 hours ago        |  Exited (0) 5 hours ago     |            |      adoring_tharp
+5d73d89c2f3d    |    ubuntu          |  "/bin/bash"            |  5 hours ago        |  Exited (0) 5 hours ago     |            |      upbeat_herschel
+<BR>  
 <BR>Excercise 1.2
 <BR>=============
+<BR> $ docker container stop cooper
+<BR> $ docker container rm upbeat_herschel adoring_tharp cooper
+<BR> $ docker rmi
+<BR> $ docker images
 <BR>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 <BR>
 <BR>Excercise 1.3
 <BR>=============
-<BR>Image: devopsdockeruh/pull_exercise 
+<BR>$ docker pull devopsdockeruh/pull_exercise 
 <BR>
 <BR>Secret message: 
 <BR>basics
@@ -25,8 +32,8 @@ DevOps course / R.Parkkonen
 <BR>
 <BR>Excercise 1.4
 <BR>=============
-<BR>Image:  devopsdockeruh/exec_bash_exercise 
-<BR>pomo@micmac ~/devops/part1 $ docker exec -it focused_kalam bash
+<BR>$ docker pull devopsdockeruh/exec_bash_exercise 
+<BR>$ docker exec -it focused_kalam bash
 <BR>root@9a26182f050c:/usr/app# tail -f ./logs.txt
 <BR>Tue, 22 Oct 2019 11:34:38 GMT
 <BR>Tue, 22 Oct 2019 11:34:41 GMT
@@ -41,7 +48,7 @@ DevOps course / R.Parkkonen
 <BR>
 <BR>Excercise 1.5
 <BR>=============
-<BR>docker run -d  --name uupper ubuntu sh -c -it 'apt-get update;apt-get install -y curl; echo "Input website:"; read website; echo "Searching...."; sleep 1; <BR>curl http://$website;'
+<BR>$ docker run -d  --name uupper ubuntu sh -c -it 'apt-get update;apt-get install -y curl; echo "Input website:"; read website; echo "Searching...."; sleep 1; <BR>curl http://$website;'
 <BR>docker attach  uupper
 <BR>
 <BR>
@@ -54,7 +61,6 @@ DevOps course / R.Parkkonen
 <BR>
 <BR>Excercise 1.9
 <BR>===============
-<BR>
 <BR>$ docker pull devopsdockeruh/ports_exercise
 <BR>$ docker images
 <BR>REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
@@ -81,7 +87,6 @@ DevOps course / R.Parkkonen
 <BR>
 <BR>Excercise 1.16
 <BR>==============
-<BR>
 <BR>Commands:
 <BR>$ docker pull devopsdockeruh/heroku-example
 <BR>$ heroku login
