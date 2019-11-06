@@ -7,7 +7,6 @@ DevOps course / R.Parkkonen
 <BR> $ docker container ps -a
 <BR>
 |CONTAINER ID    |    IMAGE          |          COMMAND       |      CREATED       |    STATUS         | PORTS  |    NAME        |
-<BR>|----------------|-------------------|------------------------|--------------------|-------------------|--------|------------------------
 <BR>|73a1db0c720a    |    ubuntu          |  "sh -c 'while true;d…" |  About a minute ago |  Up About a minute          |            |      cooper    |
 <BR>|294f92a2b703    |    hello-world     |  "/hello"               |  5 hours ago        |  Exited (0) 5 hours ago     |            |      adoring_tharp   |
 <BR>|5d73d89c2f3d    |    ubuntu          |  "/bin/bash"            |  5 hours ago        |  Exited (0) 5 hours ago     |            |      upbeat_herschel |
@@ -16,7 +15,7 @@ DevOps course / R.Parkkonen
 <BR>=============
 <BR> $ docker container stop cooper
 <BR> $ docker container rm upbeat_herschel adoring_tharp cooper
-<BR> $ docker rmi
+<BR> $ docker rmi 9adf48c5ef5e
 <BR> $ docker images
 <BR>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 <BR>
