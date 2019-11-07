@@ -16,7 +16,7 @@ DevOps course / R.Parkkonen
 <BR> $ docker container stop cooper
 <BR> $ docker container rm upbeat_herschel adoring_tharp cooper
 <BR> $ docker rmi 9adf48c5ef5e
-<BR> $ docker images
+<BR> $ docker image ls
 <BR>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 <BR>
 <BR>Excercise 1.3
@@ -106,4 +106,6 @@ DevOps course / R.Parkkonen
 Excercise 2.1 --
 <BR>
 [Excercise 2.2](https://github.com/rparkkon/devops/blob/master/part2/e2)
+<BR>
+[Excercise 2.3](https://github.com/rparkkon/devops/blob/master/part2/e3)
 <BR>

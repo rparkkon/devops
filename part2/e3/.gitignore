@@ -1,0 +1,9 @@
+# See  for more about ignoring files.
+
+# dependencies
+# testing
+front/frontend-example-docker/
+back/backend-example-docker/
+
+# production
+# misc
