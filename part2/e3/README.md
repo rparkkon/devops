@@ -3,7 +3,6 @@ Excercise 2.3
 <BR>
 [Dockerfile backend](https://github.com/rparkkon/devops/blob/master/part2/e3/back/Dockerfile)
 <BR>
-<BR>
 [Dockerfile frontend](https://github.com/rparkkon/devops/blob/master/part2/e3/front/Dockerfile)
 <BR>
 <BR>
