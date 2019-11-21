@@ -123,9 +123,9 @@ Tue, 19 Nov 2019 07:39:43 GMT
 <BR> File docker-compose.yml in section load-balancer: ports: changed 80:80 to 8084:80 
 <BR>
 <BR>$ docker container ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-41b50bca7879        load-balancer       "/app/docker-entrypo…"   4 minutes ago       Up 4 minutes        0.0.0.0:8094->80/tcp     load-balancer
-
+<BR>CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+<BR>41b50bca7879        load-balancer       "/app/docker-entrypo…"   4 minutes ago       Up 4 minutes        0.0.0.0:8094->80/tcp     load-balancer
+<BR>
 <BR>
 [Excercise 2.5](https://github.com/rparkkon/devops/blob/master/part2/e5)
 <BR>
