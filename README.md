@@ -55,8 +55,17 @@ DevOps course / R.Parkkonen
 <BR>
 [Excercise 1.7](https://github.com/rparkkon/devops/blob/master/part1/e1.7)
 <BR>
-<BR>Excercise 1.8 -
+<BR>Excercise 1.8 
 <BR>===============
+<BR>$ docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+<BR>(node:1) ExperimentalWarning: The fs.promises API is experimental
+<BR>Wrote to file /usr/app/logs.txt
+<BR>Wrote to file /usr/app/logs.txt
+<BR>^CClosing file
+<BR>cat logs.txt
+Tue, 19 Nov 2019 07:39:37 GMT
+Tue, 19 Nov 2019 07:39:40 GMT
+Tue, 19 Nov 2019 07:39:43 GMT
 <BR>
 <BR>Excercise 1.9
 <BR>===============
@@ -103,9 +112,24 @@ DevOps course / R.Parkkonen
 [Part 2](https://github.com/rparkkon/devops/tree/master/part2)
 <BR>
 <BR>
-Excercise 2.1 --
+[Excercise 2.1](https://github.com/rparkkon/devops/blob/master/part2/e1)
 <BR>
 [Excercise 2.2](https://github.com/rparkkon/devops/blob/master/part2/e2)
 <BR>
 [Excercise 2.3](https://github.com/rparkkon/devops/blob/master/part2/e3)
+<BR>
+<BR>Excercise 2.4
+<BR>================
+<BR> File docker-compose.yml in section load-balancer: ports: changed 80:80 to 8084:80 
+<BR>
+<BR>$ docker container ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+41b50bca7879        load-balancer       "/app/docker-entrypo…"   4 minutes ago       Up 4 minutes        0.0.0.0:8094->80/tcp     load-balancer
+
+<BR>
+[Excercise 2.5](https://github.com/rparkkon/devops/blob/master/part2/e5)
+<BR>
+[Excercise 2.6 - to finish](https://github.com/rparkkon/devops/blob/master/part2/e6)
+<BR>
+[Excercise 2.7](https://github.com/rparkkon/devops/blob/master/part2/e7)
 <BR>

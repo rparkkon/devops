@@ -11,16 +11,16 @@ Used commands
 <BR>
 To docker hub:
 <BR>
- $ docker tag  molle:1 docvuosaari-molle:1
+ $ docker tag  molle:1 docvuosaari/molle:1
 <BR>
- $ docker push docvuosaari-molle
+ $ docker push docvuosaari/molle
 <BR>
 <BR>
 From docker hub
 <BR>
- $ docker pull docvuosaari-molle:1
+ $ docker pull docvuosaari/molle:1
 <BR>
- $ docker run -it docvuosaari-molle:1
+ $ docker run -it docvuosaari/molle:1
 <BR>
 <BR>
 The application by default runs in port 3000.

@@ -9,7 +9,7 @@ WORKDIR ./backend-example-docker
 RUN npm install
 #RUN npm update caniuse-lite browserslist
 
-EXPOSE 8000
+#EXPOSE 8000
 # excercise 1.11
 #CMD npm start
 

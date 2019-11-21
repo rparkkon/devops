@@ -20,4 +20,4 @@ EXPOSE 5000
 #CMD npm start
 
 # excercise 1.12
-CMD API_URL=http://172.20.0.2:8000/  npm start
+CMD API_URL=http://localhost:8000  npm start

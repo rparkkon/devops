@@ -1,10 +1,35 @@
-version: '2.0' 
+version: '2' 
 
-services: 
-  
-  youtube-dl-ubuntu:  
-    image: docvuosaari/mollee:1
-    build: . 
-  volumes:
-    - .:/mydir:
-  container_name: youtube-dl
+services:
+  db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: example
+    container_name: db_redmine
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  redmine: 
+    image: redmine
+    environment: 
+      - REDMINE_DB_POSTGRES=db
+      - REDMINE_DB_PASSWORD=example
+    ports: 
+      - '9999:3000' 
+    volumes:
+      - files:/usr/src/redmine/files
+    depends_on: 
+      - db
+
+  adminer:
+    image: adminer
+    restart: always
+    environment:
+      - ADMINER_DESIGN=galkaev
+    ports:
+      - 8083:8080
+
+volumes:
+  database:
+  files:
