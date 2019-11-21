@@ -5,6 +5,6 @@ Excercise 2.7
 <BR>$ git clone https://github.com/docker-hy/ml-kurkkumopo-training
 <BR>$ git clone https://github.com/docker-hy/ml-kurkkumopo-backend
 <BR>
-<BR> frontend git clone in Dockerfile
+<BR> frontend git clone in frontend/Dockerfile
 <BR>
 <BR>$ docker-compose up --build

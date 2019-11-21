@@ -1,0 +1,34 @@
+version: '2'
+
+services:
+  server:  
+    container_name: srvkurkku
+    image: srvkurkku
+    build: ./backend
+    expose: 
+      - 5000
+    ports: 
+      - 5000:5000
+    volumes:
+      - model:/app/model
+
+  client: 
+    container_name: clikurkku
+    image: clikurkku
+    build: ./frontend 
+    ports: 
+      - 3000:3000
+
+  training:
+    container_name: training
+    image: training
+    build: ./training
+    volumes:
+      - model:/src/model
+      - data:/src/data
+      - images:/src/imgs
+     
+volumes:
+  model:
+  data:
+  images:

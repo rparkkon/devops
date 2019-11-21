@@ -5,8 +5,7 @@
 whoami/
 e4/scaling-exercise/
 visitor/
-docker-compose.yml
-DockerFile
+testing/
 # production
 # misc
 S

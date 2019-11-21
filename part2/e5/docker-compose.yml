@@ -1,0 +1,33 @@
+version: '2'  
+
+services:
+
+  server:  
+    image: docvuosaari/back
+    build: ./back
+    expose: 
+      - 8000
+    ports: 
+      - 8000:8000
+    depends_on:
+      - redis
+    environment:
+      - REDIS=redis
+    #  - REDIS_PORT=6379
+
+  client: 
+    image: docvuosaari/front
+    build: ./front 
+    ports: 
+      - 5000:5000
+
+# exercise 2.5
+  redis:
+    container_name: redis
+    image: redis
+    ports: 
+      - 6379
+    environment:
+      - REDIS=redis
+      - REDIS_PORT=6379
+     
