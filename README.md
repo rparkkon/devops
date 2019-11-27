@@ -133,3 +133,5 @@ Tue, 19 Nov 2019 07:39:43 GMT
 <BR>
 [Excercise 2.7](https://github.com/rparkkon/devops/blob/master/part2/e7)
 <BR>
+[Excercise 2.8, 10](https://github.com/rparkkon/devops/blob/master/part2/e8)
+<BR>
