@@ -1,0 +1,4 @@
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+docvuosaari/back    latest              12eae635ccf4        2 minutes ago       225MB
+docvuosaari/front   latest              c4c22eac57fb        3 minutes ago       329MB
+node                10-slim             123ce64aa150        4 days ago          148MB

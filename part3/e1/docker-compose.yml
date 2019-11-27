@@ -1,0 +1,66 @@
+version: '2'  
+
+services: 
+  backend:  
+    container_name: backend
+    image: docvuosaari/back
+    build: ./back
+    expose: 
+      - 8000
+    ports: 
+      - 8000:8000
+    volumes:
+      - files:/usr/src/app/backend-example-docker
+    depends_on:
+      - redis
+      - db
+    links:
+      - db
+    environment:
+      - REDIS=redis
+      - DB_HOST=db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=devops  
+
+  frontend: 
+    container_name: frontend
+    image: docvuosaari/front
+    build: ./front 
+    ports: 
+      - 5000:5000
+
+# exercise 2.8
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    depends_on:
+      - backend  
+      - frontend
+    ports: 
+      - 80:80
+
+# exercise 2.5
+  redis:
+    container_name: redis
+    image: redis
+    ports: 
+      - 6379
+
+# exercise 2.6
+  db:
+    image: postgres
+    restart: unless-stopped
+    volumes:
+      - database:/var/lib/postgresql/data
+    ports:
+      - 5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8083:8080
+
+volumes:
+  database:
+  files:
