@@ -1,0 +1,18 @@
+FROM node:10-slim
+# 
+WORKDIR /usr/src/app
+
+RUN apt-get update && apt-get install -y \
+    && apt-get install git -y \
+    && git clone https://github.com/docker-hy/backend-example-docker \
+    && apt-get purge --auto-remove git -y \
+    && chmod a+w /usr/src/app/backend-example-docker \
+    && useradd -m appusr \
+    && chown -hR appusr /usr/src/app /usr/local
+
+USER appusr
+WORKDIR ./backend-example-docker 
+
+RUN npm install && npm install --save-prod --global cross-env && npm install --save-prod @babel/core @babel/node @babel/register
+
+CMD npm start
