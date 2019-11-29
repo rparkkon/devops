@@ -1,3 +1,7 @@
+DevOps course / R.Parkkonen
+<BR>
+<BR>Part 3
+<BR>
 Excercise 3.1
 <BR>===========
 <BR>Changed FROM:node:10 ==> FROM:node:10-slim
@@ -11,7 +15,7 @@ Excercise 3.1
 <BR>Sizes after -  front: 329MB back:225MB [size](https://github.com/rparkkon/devops/blob/master/part3/e1/size1.txt)
 <BR>Backend with Ubuntu 16.04 size: 308MB [size](https://github.com/rparkkon/devops/blob/master/part3/e1/size2.txt)
 <BR>
-<BR>Excercise 3.2 ---
+<BR>Excercise 3.2 
 <BR>===========
 <BR>
 <BR>Excercise 3.3
