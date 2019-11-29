@@ -1,5 +1,4 @@
 DevOps course / R.Parkkonen
-<BR>
 <BR>Part 3
 <BR>
 Excercise 3.1
