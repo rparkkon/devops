@@ -1,0 +1,7 @@
+# See  for more about ignoring files.
+
+# dependencies
+# testing
+test/
+# production
+# misc
