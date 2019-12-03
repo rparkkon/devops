@@ -30,7 +30,7 @@ Excercise 3.1
 <BR>Sizes before [size](https://github.com/rparkkon/devops/blob/master/part3/e4/size0.txt)
 <BR>Sizes after  [size](https://github.com/rparkkon/devops/blob/master/part3/e4/size1.txt)
 <BR>
-<BR>Excercise 3.5
+<BR>Excercise 3.5 ???
 <BR>===========
 <BR>[Dockerfile](https://github.com/rparkkon/devops/blob/master/part3/e5)
 <BR>
