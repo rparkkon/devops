@@ -14,14 +14,13 @@ Excercise 3.1
 <BR>Sizes after -  front: 329MB back:225MB [size](https://github.com/rparkkon/devops/blob/master/part3/e1/size1.txt)
 <BR>Backend with Ubuntu 16.04 size: 308MB [size](https://github.com/rparkkon/devops/blob/master/part3/e1/size2.txt)
 <BR>
-<BR>[Excercise 3.2](https://github.com/rparkkon/devops/blob/master/part3/e6) 
+<BR>[Excercise 3.2](https://github.com/rparkkon/devops/blob/master/part3/e2) 
 <BR>===========
 <BR>[Dockerfile](https://github.com/rparkkon/devops/blob/master/part3/e2/Dockerfile)
-<BR>
 <BR>Commands
 <BR> $ docker build . -t ylee
 <BR> $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329308
-<BR> $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329351
+<BR> $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-2595337
 <BR>[Output list](https://github.com/rparkkon/devops/blob/master/part3/e2/output1.txt)
 <BR>
 <BR>
@@ -47,5 +46,6 @@ Excercise 3.1
 <BR>Commands
 <BR> $ docker build -t ex36:1 .
 <BR> $ docker run -it ex36:1
-<BR>[Dockerfile](https://github.com/rparkkon/devops/blob/master/part3/e6/Dockerfile)
+<BR>Dockerfile [before](https://github.com/rparkkon/devops/blob/master/part3/e6/Dockerfile.0)
+<BR>Dockerfile [after](https://github.com/rparkkon/devops/blob/master/part3/e6/Dockerfile)
 <BR>[Sizes](https://github.com/rparkkon/devops/blob/master/part3/e6/size0.txt)

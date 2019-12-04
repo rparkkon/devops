@@ -26,36 +26,52 @@ Saving to: ‘Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3’
 Stream saved to Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3
 
 
- $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329351
+
+$ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-2595337
 yle-dl 20191022: Download media files from Yle Areena and Elävä Arkisto
 Copyright (C) 2009-2019 Antti Ajanki <antti.ajanki@iki.fi>, license: GPLv3
 
-Output file: Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
---2019-12-04 20:31:35--  https://cdnsecakmi.kaltura.com/p/1955031/sp/195503100/playManifest/entryId/1_p1qq54oe/flavorId/0_bqmj6t2n/format/url/protocol/https/a.mp3?uiConfId=43362851&referrer=aHR0cHM6Ly9hcmVlbmEueWxlLmZpLzEtNTAzMjkzNTE=&playSessionId=11111111-1111-1111-1111-111111111111&clientTag=html5:v0.39.4
+Output file: Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 18-22-2019-12-04T18:04.mkv
+[matroska @ 0xce36c0] Error parsing AAC extradata, unable to determine samplerate.
+Could not write header for output file #0 (incorrect codec parameters ?): Invalid argument
+Output file: Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 18-22-2019-12-04T18:04.mp4
+--2019-12-04 20:48:06--  https://cdnsecakmi.kaltura.com/p/1955031/sp/195503100/playManifest/entryId/1_jwq25hyo/flavorId/0_zumvdswk/format/url/protocol/https/a.mp4?uiConfId=43362851&referrer=aHR0cHM6Ly9hcmVlbmEueWxlLmZpLzEtNTAzNzY1Mzc=&playSessionId=11111111-1111-1111-1111-111111111111&clientTag=html5:v0.39.4
 Resolving cdnsecakmi.kaltura.com (cdnsecakmi.kaltura.com)... 95.101.174.203
 Connecting to cdnsecakmi.kaltura.com (cdnsecakmi.kaltura.com)|95.101.174.203|:443... connected.
 HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3?__hdnea__=st=1575491496~exp=1575505896~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3*~hmac=9896bec95c9f6f1a0523d2d65b0d0bf892515d4569f1bc0e06a0b985abb74bc7 [following]
---2019-12-04 20:31:36--  https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3?__hdnea__=st=1575491496~exp=1575505896~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3*~hmac=9896bec95c9f6f1a0523d2d65b0d0bf892515d4569f1bc0e06a0b985abb74bc7
-Resolving ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)... 62.183.170.35, 62.183.170.42
-Connecting to ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)|62.183.170.35|:443... connected.
+Location: https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_jwq25hyo/v/2/ev/6/flavorId/0_zumvdswk/name/a.mp4?__hdnea__=st=1575492487~exp=1575506887~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_jwq25hyo/v/2/ev/6/flavorId/0_zumvdswk/name/a.mp4*~hmac=4a70abb257594dc13b1ee6c053af06055b1b26365c1507994b0d5e4f77ead189 [following]
+--2019-12-04 20:48:08--  https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_jwq25hyo/v/2/ev/6/flavorId/0_zumvdswk/name/a.mp4?__hdnea__=st=1575492487~exp=1575506887~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_jwq25hyo/v/2/ev/6/flavorId/0_zumvdswk/name/a.mp4*~hmac=4a70abb257594dc13b1ee6c053af06055b1b26365c1507994b0d5e4f77ead189
+Resolving ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)... 62.183.170.114, 62.183.170.35
+Connecting to ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)|62.183.170.114|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 4403035 (4.2M) [audio/mpeg]
-Saving to: ‘Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3’
+Length: 238399808 (227M) [video/mp4]
+Saving to: ‘Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 18-22-2019-12-04T18:04.mp4’
 
-     0K .......... .......... .......... .......... ..........  1% 1.43M 3s
-        ...
-  4250K .......... .......... .......... .......... ......... 100% 1.35M=3.6s
+     0K .......... .......... .......... .......... ..........  0%  878K 4m25s
+    50K .......... .......... .......... .......... ..........  0% 1.07M 3m59s
+   100K .......... .......... .......... .......... ..........  0% 1.07M 3m50s
+232750K .......... .......... .......... .......... .......... 99% 1.10M 0s
+232800K .......... ..                                         100% 2.39M=3m30s
 
-2019-12-04 20:31:39 (1.16 MB/s) - ‘Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3’ saved [4403035/4403035]
+2019-12-04 20:51:39 (1.08 MB/s) - ‘Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 18-22-2019-12-04T18:04.mp4’ saved [238399808/238399808]
 
-Stream saved to Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
+Stream saved to Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 18-22-2019-12-04T18:04.mp4
+Output file: Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 17-06-2019-12-04T16:36.mkv
+[matroska @ 0x2693720] Error parsing AAC extradata, unable to determine samplerate.
+Could not write header for output file #0 (incorrect codec parameters ?): Invalid argument
+Output file: Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 17-06-2019-12-04T16:36.mp4
 
 
  $ ls -la
 total 11360
 drwxr-xr-x 2 pomo pomo    4096 Dec  4 22:31 .
 drwxr-xr-x 9 pomo pomo    4096 Nov 29 16:07 ..
--rw-r--r-- 1 root root 7201689 Dec  4 22:31 Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3
--rw-r--r-- 1 root root 4403035 Dec  4 22:31 Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
- $ 
+-rw-r--r-- 1 root root 238399808 Dec  4 22:51 Yle Uutiset Kaakkois-Suomi: 04-12-2019 Klo 18-22-2019-12-04T18:04.mp4
+-rw-r--r-- 1 root root   7201689 Dec  4 22:31 Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3
+-rw-r--r-- 1 root root   4403035 Dec  4 22:31 Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
+pomo@micmac ~/devops/part3/test $ 
+
+
+$ docker images 
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ylee                latest              f2ad81091543        39 minutes ago      753MB
