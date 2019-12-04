@@ -14,8 +14,16 @@ Excercise 3.1
 <BR>Sizes after -  front: 329MB back:225MB [size](https://github.com/rparkkon/devops/blob/master/part3/e1/size1.txt)
 <BR>Backend with Ubuntu 16.04 size: 308MB [size](https://github.com/rparkkon/devops/blob/master/part3/e1/size2.txt)
 <BR>
-<BR>Excercise 3.2 
+<BR>[Excercise 3.2](https://github.com/rparkkon/devops/blob/master/part3/e6) 
 <BR>===========
+<BR>[Dockerfile](https://github.com/rparkkon/devops/blob/master/part3/e2/Dockerfile)
+<BR>
+<BR>Commands
+<BR> $ docker build . -t ylee
+<BR> $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329308
+<BR> $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329351
+<BR>[Output list](https://github.com/rparkkon/devops/blob/master/part3/e2/output1.txt)
+<BR>
 <BR>
 <BR>Excercise 3.3
 <BR>===========

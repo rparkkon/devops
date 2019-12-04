@@ -1,4 +1,8 @@
-FROM  node:10-slim as build-stage
+FROM  nginx as build-stage
+#COPY --from=build-stage /usr/src/app /usr/src/app
+COPY ./nginx.conf /etc/nginx/nginx.conf
+
+FROM  node:10-slim 
 
 WORKDIR /usr/src/app
 
@@ -11,8 +15,6 @@ RUN apt-get update && apt-get install -y \
 
 USER appusr
 RUN npm install && npm audit fix && npm update serve
+RUN npm run build
 CMD npm start
 
-FROM  nginx
-COPY --from=build-stage /usr/app/_site/ /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf

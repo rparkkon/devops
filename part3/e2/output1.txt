@@ -1,0 +1,61 @@
+ $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329308
+yle-dl 20191022: Download media files from Yle Areena and Elävä Arkisto
+Copyright (C) 2009-2019 Antti Ajanki <antti.ajanki@iki.fi>, license: GPLv3
+
+Output file: Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3
+--2019-12-04 20:31:07--  https://cdnsecakmi.kaltura.com/p/1955031/sp/195503100/playManifest/entryId/1_4qwr2orl/flavorId/0_eps5lxq6/format/url/protocol/https/a.mp3?uiConfId=43362851&referrer=aHR0cHM6Ly9hcmVlbmEueWxlLmZpLzEtNTAzMjkzMDg=&playSessionId=11111111-1111-1111-1111-111111111111&clientTag=html5:v0.39.4
+Resolving cdnsecakmi.kaltura.com (cdnsecakmi.kaltura.com)... 95.101.174.203
+Connecting to cdnsecakmi.kaltura.com (cdnsecakmi.kaltura.com)|95.101.174.203|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_4qwr2orl/v/2/flavorId/0_eps5lxq6/name/a.mp3?__hdnea__=st=1575491467~exp=1575505867~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_4qwr2orl/v/2/flavorId/0_eps5lxq6/name/a.mp3*~hmac=a546ecf5d5ad593e3e5d0732c14433d67d369eeaccff68cb371d5c6827174159 [following]
+--2019-12-04 20:31:07--  https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_4qwr2orl/v/2/flavorId/0_eps5lxq6/name/a.mp3?__hdnea__=st=1575491467~exp=1575505867~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_4qwr2orl/v/2/flavorId/0_eps5lxq6/name/a.mp3*~hmac=a546ecf5d5ad593e3e5d0732c14433d67d369eeaccff68cb371d5c6827174159
+Resolving ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)... 62.183.170.42, 62.183.170.35, 62.183.170.114
+Connecting to ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)|62.183.170.42|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7201689 (6.9M) [audio/mpeg]
+Saving to: ‘Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3’
+
+     0K .......... .......... .......... .......... ..........  0% 2.44M 3s
+    50K .......... .......... .......... .......... ..........  1%  990K 5s
+        ...
+  6950K .......... .......... .......... .......... .......... 99% 1.05M 0s
+  7000K .......... .......... .......... ..                   100% 1.19M=5.9s
+
+2019-12-04 20:31:13 (1.16 MB/s) - ‘Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3’ saved [7201689/7201689]
+
+Stream saved to Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3
+
+
+ $ docker run -v "$(pwd):/out" ylee https://areena.yle.fi/1-50329351
+yle-dl 20191022: Download media files from Yle Areena and Elävä Arkisto
+Copyright (C) 2009-2019 Antti Ajanki <antti.ajanki@iki.fi>, license: GPLv3
+
+Output file: Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
+--2019-12-04 20:31:35--  https://cdnsecakmi.kaltura.com/p/1955031/sp/195503100/playManifest/entryId/1_p1qq54oe/flavorId/0_bqmj6t2n/format/url/protocol/https/a.mp3?uiConfId=43362851&referrer=aHR0cHM6Ly9hcmVlbmEueWxlLmZpLzEtNTAzMjkzNTE=&playSessionId=11111111-1111-1111-1111-111111111111&clientTag=html5:v0.39.4
+Resolving cdnsecakmi.kaltura.com (cdnsecakmi.kaltura.com)... 95.101.174.203
+Connecting to cdnsecakmi.kaltura.com (cdnsecakmi.kaltura.com)|95.101.174.203|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3?__hdnea__=st=1575491496~exp=1575505896~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3*~hmac=9896bec95c9f6f1a0523d2d65b0d0bf892515d4569f1bc0e06a0b985abb74bc7 [following]
+--2019-12-04 20:31:36--  https://ylekaod-a.akamaihd.net/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3?__hdnea__=st=1575491496~exp=1575505896~acl=/s/p/1955031/sp/195503100/serveFlavor/entryId/1_p1qq54oe/v/2/flavorId/0_bqmj6t2n/name/a.mp3*~hmac=9896bec95c9f6f1a0523d2d65b0d0bf892515d4569f1bc0e06a0b985abb74bc7
+Resolving ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)... 62.183.170.35, 62.183.170.42
+Connecting to ylekaod-a.akamaihd.net (ylekaod-a.akamaihd.net)|62.183.170.35|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4403035 (4.2M) [audio/mpeg]
+Saving to: ‘Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3’
+
+     0K .......... .......... .......... .......... ..........  1% 1.43M 3s
+        ...
+  4250K .......... .......... .......... .......... ......... 100% 1.35M=3.6s
+
+2019-12-04 20:31:39 (1.16 MB/s) - ‘Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3’ saved [4403035/4403035]
+
+Stream saved to Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
+
+
+ $ ls -la
+total 11360
+drwxr-xr-x 2 pomo pomo    4096 Dec  4 22:31 .
+drwxr-xr-x 9 pomo pomo    4096 Nov 29 16:07 ..
+-rw-r--r-- 1 root root 7201689 Dec  4 22:31 Yle Uutiset: Keskiviikkona klo 22.00-2019-12-04T22:07.mp3
+-rw-r--r-- 1 root root 4403035 Dec  4 22:31 Yle Uutiset Lappi: Keskiviikkona klo 16.30-2019-12-04T16:37.mp3
+ $ 
