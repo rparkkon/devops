@@ -1,3 +1,0 @@
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-ex36                1                   e3cc53e7a8ba        12 minutes ago      442MB
-node                alpine              fac3d6a8e034        7 days ago          106MB

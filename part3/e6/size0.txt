@@ -1,3 +1,11 @@
+Size before
+
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 ex36                1                   e5ecc269c1c6        16 minutes ago      1.15GB
 node                10                  d5680e53a228        6 days ago          903MB
+
+after
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ex36                1                   e3cc53e7a8ba        12 minutes ago      442MB
+node                alpine              fac3d6a8e034        7 days ago          106MB
