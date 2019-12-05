@@ -12,4 +12,4 @@ Excercise 1.14
 <BR> $ docker build . -t ruu
 <BR> $ docker run -it ruu
 <BR> Other [commands](https://github.com/rparkkon/devops/blob/master/part1/e1.14/output.txt)
-<BR>In browser : http://172.17.0.2:3000/ => [RailsExample](https://github.com/rparkkon/devops/blob/master/part1/e1.14/railse.png)
+<BR>In browser : http://172.17.0.2:3000/ => [RailsExample](https://github.com/rparkkon/devops/blob/master/part1/e1.14/Railse.png)
