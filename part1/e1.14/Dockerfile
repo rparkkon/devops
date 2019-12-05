@@ -1,11 +1,9 @@
-FROM ruby:latest
+FROM ruby:2.6
 
 WORKDIR /usr/src/app
+COPY ./rails ./
 
-RUN git clone https://github.com/docker-hy/rails-example-project
-RUN cd $(pwd)/rails-example-project && pwd && ls -a .
+RUN gem uninstall bundler &&  bundle install
+RUN rails db:migrate
 
-WORKDIR ./rails-example-project 
-# RUN ./mvnw package
-
-# CMD java -jar ./target/docker-example-1.1.3.jar
+CMD rails s

@@ -89,7 +89,7 @@ Tue, 19 Nov 2019 07:39:43 GMT
 <BR>
 [Excercise 1.13](https://github.com/rparkkon/devops/blob/master/part1/e1.13)
 <BR>
-[Excercise 1.14 - Not finished.](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
+[Excercise 1.14](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
 <BR>
 [Excercise 1.15](https://github.com/rparkkon/devops/blob/master/part1/e1.15)
 <BR>
