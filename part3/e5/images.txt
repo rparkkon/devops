@@ -1,0 +1,10 @@
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ex35_frontend       latest              1f08844c8d30        4 minutes ago       157MB
+e5_nginx            latest              a60c20a892de        3 days ago          126MB
+ibackend            latest              5782eb27bf28        3 days ago          287MB
+postgres            latest              4a82a16ee75c        5 days ago          394MB
+adminer             latest              e0ae6086e6e8        6 days ago          87.6MB
+ubuntu              16.04               56bab49eef2e        12 days ago         123MB
+redis               latest              dcf9ec9265e0        2 weeks ago         98.2MB
+nginx               latest              231d40e811cd        2 weeks ago         126MB
+node                10-slim             123ce64aa150        2 weeks ago         148MB

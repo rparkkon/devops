@@ -30,14 +30,14 @@ services:
       - 5000:5000
 
 # exercise 2.8
-#  nginx:
-#    container_name: nginx
-    #build: ./nginx
-    #depends_on:
-    #  - backend  
-    #  - frontend
-    #ports: 
-    #  - 80:80
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    depends_on:
+      - backend  
+      - frontend
+    ports: 
+      - 80:80
 
 # exercise 2.5
   redis:

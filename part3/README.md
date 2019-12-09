@@ -37,9 +37,12 @@ Excercise 3.1
 <BR>Sizes before [size](https://github.com/rparkkon/devops/blob/master/part3/e4/size0.txt)
 <BR>Sizes after  [size](https://github.com/rparkkon/devops/blob/master/part3/e4/size1.txt)
 <BR>
-<BR>Excercise 3.5 ???
+<BR>[Excercise 3.5](https://github.com/rparkkon/devops/blob/master/part3/e5)
 <BR>===========
-<BR>[Dockerfile](https://github.com/rparkkon/devops/blob/master/part3/e5)
+<BR>[Docker-compose](https://github.com/rparkkon/devops/blob/master/part3/e5/Docker-compose.yml)
+<BR>Frontend [Dockerfile multi-stage](https://github.com/rparkkon/devops/blob/master/part3/e5/front/Dockerfile)
+<BR>[Run result](https://github.com/rparkkon/devops/blob/master/part3/e5/ex35.png)
+<BR>Image [sizes](https://github.com/rparkkon/devops/blob/master/part3/e5/image.txt)
 <BR>
 <BR>[Excercise 3.6](https://github.com/rparkkon/devops/blob/master/part3/e6)
 <BR>===========
