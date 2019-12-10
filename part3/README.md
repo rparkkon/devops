@@ -52,3 +52,6 @@ Excercise 3.1
 <BR>Dockerfile [before](https://github.com/rparkkon/devops/blob/master/part3/e6/Dockerfile.0)
 <BR>Dockerfile [after](https://github.com/rparkkon/devops/blob/master/part3/e6/Dockerfile)
 <BR>[Sizes](https://github.com/rparkkon/devops/blob/master/part3/e6/size0.txt)
+<BR>
+<BR>[Excercise 3.7 a)](https://github.com/rparkkon/devops/blob/master/part3/e7a)
+<BR>===========
