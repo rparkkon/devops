@@ -55,3 +55,6 @@ Excercise 3.1
 <BR>
 <BR>[Excercise 3.7 a)](https://github.com/rparkkon/devops/blob/master/part3/e7a)
 <BR>===========
+<BR>
+<BR>Excercise 3.8 `-`
+<BR>===========
