@@ -1,9 +1,6 @@
 ### DevOps course / R.Parkkonen
 ### Part 2
 
-[Part 2](https://github.com/rparkkon/devops/tree/master/part2)
-<BR>
-<BR>
 [Exercise 2.1](https://github.com/rparkkon/devops/blob/master/part2/e1)
 <BR>
 [Exercise 2.2](https://github.com/rparkkon/devops/blob/master/part2/e2)

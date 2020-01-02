@@ -1,6 +1,6 @@
 ### DevOps course / R.Parkkonen
 ### Part 3
-<BR>
+
 Exercise 3.1
 <BR>===========
 <BR>Changed FROM:node:10 ==> FROM:node:10-slim

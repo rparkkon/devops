@@ -1,7 +1,6 @@
 ### DevOps course / R.Parkkonen
 ### Part 1
-<BR>
-<BR>
+
 <BR>Exercise 1.1
 <BR>=============
 <BR> $ docker container ps -a
