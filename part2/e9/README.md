@@ -1,4 +1,4 @@
-Excercise 2.9
+Exercise 2.9
 <BR>===========
 <BR>[Docker-compose.yml](https://github.com/rparkkon/devops/blob/master/part2/e9/docker-compose.yml)
 <BR>

@@ -1,4 +1,4 @@
-Excercise 2.6
+Exercise 2.6
 <BR>===========
 <BR>
 <BR>DB_USERNAME=postgres has a password set in docker-compose.yml

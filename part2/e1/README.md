@@ -1,4 +1,4 @@
-Excercise 2.1
+Exercise 2.1
 
 <BR>$ docker-compose up
 <BR>Recreating first_volume

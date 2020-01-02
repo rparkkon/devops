@@ -1,4 +1,4 @@
-Excercise 2.3
+Exercise 2.3
 <BR>=============
 <BR>
 [Dockerfile backend](https://github.com/rparkkon/devops/blob/master/part2/e3/back/Dockerfile)
