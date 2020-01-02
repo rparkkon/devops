@@ -107,5 +107,3 @@ Tue, 19 Nov 2019 07:39:43 GMT
 <BR>URL:  https://lantti-matti.herokuapp.com/
 <BR>
 <BR>Exercise 1.17 -
-<BR>================
-<BR>
