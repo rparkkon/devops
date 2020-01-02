@@ -1,0 +1,33 @@
+.
+├── ./back
+│   ├── ./back/Dockerfile
+│   └── ./back/package.json
+├── ./data
+│   ├── ./data/db.json
+│   ├── ./data/package.json
+│   └── ./data/routes.json
+├── ./docker-compose.yml
+├── ./front
+│   ├── ./front/Dockerfile
+│   ├── ./front/package.json
+│   ├── ./front/public
+│   │   ├── ./front/public/favicon.ico
+│   │   ├── ./front/public/index.html
+│   │   └── ./front/public/manifest.json
+│   └── ./front/src
+│       ├── ./front/src/App.js
+│       ├── ./front/src/components
+│       │   ├── ./front/src/components/Names.js
+│       │   ├── ./front/src/components/Notification.js
+│       │   ├── ./front/src/components/Otsikko.js
+│       │   ├── ./front/src/components/Suodatus.js
+│       │   └── ./front/src/components/UusiHenkilo.js
+│       ├── ./front/src/index.css
+│       ├── ./front/src/index.js
+│       └── ./front/src/services
+│           ├── ./front/src/services/persons.js
+│           └── ./front/src/services/sqlserver.js
+├── ./nginx
+│   ├── ./nginx/Dockerfile
+│   └── ./nginx/nginx.conf
+└── ./README.md

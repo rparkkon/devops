@@ -1,0 +1,25 @@
+version: '2'  
+
+services: 
+  backend:  
+    container_name: backend
+    image: docvuosaari/ex38bback:1
+    ports: 
+      - 3001:3001
+    volumes:
+      - ./data:/data
+
+  frontend: 
+    container_name: frontend
+    image: docvuosaari/ex38bfont:1
+    ports: 
+      - 3000:3000
+
+  nginx:
+    container_name: nginx
+    image: docvuosaari/ex38bnginx:1
+    depends_on:
+      - backend  
+      - frontend
+    ports: 
+      - 80:80

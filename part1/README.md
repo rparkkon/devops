@@ -3,7 +3,7 @@ DevOps course / R.Parkkonen
 Part 1
 <BR>
 <BR>
-<BR>Excercise 1.1
+<BR>Exercise 1.1
 <BR>=============
 <BR> $ docker container ps -a
 <BR>
@@ -12,7 +12,7 @@ Part 1
 <BR>|294f92a2b703    |    hello-world     |  "/hello"               |  5 hours ago        |  Exited (0) 5 hours ago     |            |      adoring_tharp   |
 <BR>|5d73d89c2f3d    |    ubuntu          |  "/bin/bash"            |  5 hours ago        |  Exited (0) 5 hours ago     |            |      upbeat_herschel |
 <BR>  
-<BR>Excercise 1.2
+<BR>Exercise 1.2
 <BR>=============
 <BR> $ docker container stop cooper
 <BR> $ docker container rm upbeat_herschel adoring_tharp cooper
@@ -20,7 +20,7 @@ Part 1
 <BR> $ docker image ls
 <BR>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 <BR>
-<BR>Excercise 1.3
+<BR>Exercise 1.3
 <BR>=============
 <BR>$ docker pull devopsdockeruh/pull_exercise 
 <BR>
@@ -30,7 +30,7 @@ Part 1
 <BR>You found the correct password. Secret message is:
 <BR>"This is the secret message"
 <BR>
-<BR>Excercise 1.4
+<BR>Exercise 1.4
 <BR>=============
 <BR>$ docker pull devopsdockeruh/exec_bash_exercise 
 <BR>$ docker exec -it focused_kalam bash
@@ -46,17 +46,17 @@ Part 1
 <BR>Secret message is:
 <BR>"Docker is easy"
 <BR>
-<BR>Excercise 1.5
+<BR>Exercise 1.5
 <BR>=============
 <BR>$ docker run -d  --name uupper ubuntu sh -c -it 'apt-get update;apt-get install -y curl; echo "Input website:"; read website; echo "Searching...."; sleep 1; <BR>curl http://$website;'
 <BR>docker attach  uupper
 <BR>
 <BR>
-[Excercise 1.6](https://github.com/rparkkon/devops/blob/master/part1/e1.6)
+[Exercise 1.6](https://github.com/rparkkon/devops/blob/master/part1/e1.6)
 <BR>
-[Excercise 1.7](https://github.com/rparkkon/devops/blob/master/part1/e1.7)
+[Exercise 1.7](https://github.com/rparkkon/devops/blob/master/part1/e1.7)
 <BR>
-<BR>Excercise 1.8 
+<BR>Exercise 1.8 
 <BR>===============
 <BR>$ docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
 <BR>(node:1) ExperimentalWarning: The fs.promises API is experimental
@@ -68,7 +68,7 @@ Tue, 19 Nov 2019 07:39:37 GMT
 Tue, 19 Nov 2019 07:39:40 GMT
 Tue, 19 Nov 2019 07:39:43 GMT
 <BR>
-<BR>Excercise 1.9
+<BR>Exercise 1.9
 <BR>===============
 <BR>$ docker pull devopsdockeruh/ports_exercise
 <BR>$ docker images
@@ -83,18 +83,18 @@ Tue, 19 Nov 2019 07:39:43 GMT
 <BR>=> in browser: http://localhost:32771/  -> Ports configured correctly!!
 <BR>
 <BR>
-[Excercise 1.10, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.10)
+[Exercise 1.10, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.10)
 <BR>
-[Excercise 1.11, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.11)
+[Exercise 1.11, 12](https://github.com/rparkkon/devops/blob/master/part1/e1.11)
 <BR>
-[Excercise 1.13](https://github.com/rparkkon/devops/blob/master/part1/e1.13)
+[Exercise 1.13](https://github.com/rparkkon/devops/blob/master/part1/e1.13)
 <BR>
-[Excercise 1.14](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
+[Exercise 1.14](https://github.com/rparkkon/devops/blob/master/part1/e1.14)
 <BR>
-[Excercise 1.15](https://github.com/rparkkon/devops/blob/master/part1/e1.15)
+[Exercise 1.15](https://github.com/rparkkon/devops/blob/master/part1/e1.15)
 <BR>
 <BR>
-<BR>Excercise 1.16
+<BR>Exercise 1.16
 <BR>==============
 <BR>Commands:
 <BR>$ docker pull devopsdockeruh/heroku-example
@@ -106,6 +106,6 @@ Tue, 19 Nov 2019 07:39:43 GMT
 <BR>
 <BR>URL:  https://lantti-matti.herokuapp.com/
 <BR>
-<BR>Excercise 1.17 -
+<BR>Exercise 1.17 -
 <BR>================
 <BR>

@@ -1,0 +1,28 @@
+version: '2'  
+
+services: 
+  backend:  
+    container_name: backend
+    image: backend
+    build: ./back
+    ports: 
+      - 3001:3001
+    volumes:
+      - ./data:/data
+
+  frontend: 
+    container_name: frontend
+    image: frontend
+    build: ./front 
+    ports: 
+      - 3000:3000
+
+  nginx:
+    container_name: nginx
+    image: nginx
+    build: ./nginx
+    depends_on:
+      - backend  
+      - frontend
+    ports: 
+      - 80:80
