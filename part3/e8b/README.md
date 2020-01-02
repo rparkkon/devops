@@ -5,7 +5,8 @@ Project [source files tree](https://github.com/rparkkon/devops/blob/master/part3
 
 To build containers: [Docker-compose](https://github.com/rparkkon/devops/blob/master/part3/e8b/docker-compose.yml) makes [docker images](https://github.com/rparkkon/devops/blob/master/part3/e8b/images.txt) frontend - UI, backend - REST API json-server database and nginx.
 
-The application **Puhelinluettelo** by default runs in ![localhost](https://github.com/rparkkon/devops/blob/master/part3/e8b/ex38b.png).
+The application **Puhelinluettelo** by default runs in localhost.
+<BR> ![localhost](https://github.com/rparkkon/devops/blob/master/part3/e8b/ex38b.png).
 
 To docker hub commands:
 <BR>tags:
