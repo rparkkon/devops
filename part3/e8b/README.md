@@ -3,9 +3,9 @@
 
 Project [source files tree](https://github.com/rparkkon/devops/blob/master/part3/e8b/sourcefiles.txt).
 
-To build containers: [Docker-compose](https://github.com/rparkkon/devops/blob/master/part3/e8b/docker-compose.yml) makes [docker images](https://github.com/rparkkon/devops/blob/master/part3/e8b/images.txt) frontend, backend and nginx.
+To build containers: [Docker-compose](https://github.com/rparkkon/devops/blob/master/part3/e8b/docker-compose.yml) makes [docker images](https://github.com/rparkkon/devops/blob/master/part3/e8b/images.txt) frontend - UI, backend - REST API json-server database and nginx.
 
-The application **Puhelinluettelo** by default runs in [localhost](https://github.com/rparkkon/devops/blob/master/part3/e8b/ex38b.png).
+The application **Puhelinluettelo** by default runs in ![localhost](https://github.com/rparkkon/devops/blob/master/part3/e8b/ex38b.png).
 
 To docker hub commands:
 <BR>tags:
@@ -20,9 +20,9 @@ To docker hub commands:
 
 # To run in own environment
 
-From docker hub: [docker-compose](https://github.com/rparkkon/devops/blob/master/part3/e8b/docker-compose.fromhub.yml).
+From docker hub: [docker-compose.fromhub.yml](https://github.com/rparkkon/devops/blob/master/part3/e8b/docker-compose.fromhub.yml).
 
-Prepare the environmet by cloning the **data** folder in your project root. And run command
+Prepare the environmet by cloning the database files from [**data**](https://github.com/rparkkon/devops/blob/master/part3/e8b/data) folder in your project root. And run command:
 <BR> $ docker-compose --file docker-compose.fromhub.yml
 
 Known issue. The button **Poista** does not work properly. The correction is beyond this exercise.
