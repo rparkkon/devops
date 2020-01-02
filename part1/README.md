@@ -1,6 +1,5 @@
-DevOps course / R.Parkkonen
-<BR>
-Part 1
+### DevOps course / R.Parkkonen
+### Part 1
 <BR>
 <BR>
 <BR>Exercise 1.1
