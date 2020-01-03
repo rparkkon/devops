@@ -4,6 +4,21 @@
       "name": "Aku Ankka",
       "number": "313",
       "id": 1
+    },
+    {
+      "name": "Mikki Hinni",
+      "number": "989",
+      "id": 2
+    },
+    {
+      "name": "Maikki Pontso",
+      "number": "878",
+      "id": 3
+    },
+    {
+      "name": "Katti Matinen",
+      "number": "616",
+      "id": 4
     }
   ]
 }
